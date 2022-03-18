@@ -29,10 +29,10 @@ function render() {
     if (todo.done) {
       return
     } else {
-      html += `<div>
+      html += `<li>
                 ${todo.text}
                 <button data-id='${todo.id}'>Сделано!</button>
-              </div>`
+              </li>`
     }
   })
 
